@@ -1,4 +1,4 @@
-pipeline {  
+pipeline { 
     agent any  
         stages {  
        	    stage("git_checkout") {  
@@ -7,5 +7,16 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+
+				stage("build") {  
+           	    	steps {  
+              	    sh "mvn test" 
+              	    sh "mvn verify'
+					
         }
+
+		}
+	
+}
+	
 }
