@@ -82,11 +82,11 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
-<<<<<<< Updated upstream
+	Updated upstream
 	      <url>http://44.202.139.87:8081/repository/june23-onlinelab-pipelinesnapshot/</url>
-=======
+
 	      <url>http://3.87.193.194:8081/repository/jun324onlinelab-snapshot/git </url>
->>>>>>> Stashed changes
+ 	Stashed changes
 	    </snapshotRepository>
 	    
 	</distributionManagement>
