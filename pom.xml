@@ -77,13 +77,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
-	      <url>http://3.87.193.194:8081/repository/jun24online-re/</url>
+	      <url>http://44.199.200.173:8081/repository/class26-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
-	      <url>http://3.87.193.194:8081/repository/june24online-snap/</url>
+	      <url>http://44.199.200.173:8081/repository/class26-snapshots/</url>
         </snapshotRepository>
 	    
 	</distributionManagement>
@@ -93,9 +93,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://34.227.242.55:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>  
-		<sonar.login>78da5120cd4f4be55ae2db37e57dd0039f821c37</sonar.login>
+		<sonar.host.url>http://52.72.31.180:9000/</sonar.host.url>
+		<sonar.login>kaydev</sonar.login>  
+		<sonar.login>7d7caf72acc5a8e61fe6647a35fa9b88059bdae40</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
